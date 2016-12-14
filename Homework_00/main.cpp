@@ -5,7 +5,7 @@ int main()
     for(int i = 0; i < 5; i++)
     {
         switch(i)
-      {
+        {
         case 0:
             cout << "1 Apple" << endl;
             break;
@@ -25,7 +25,7 @@ int main()
         case 4:
             cout << "5 Bananas" << endl;
             break;
-      }
+        }
     }
 
 
