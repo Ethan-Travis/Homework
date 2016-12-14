@@ -7,23 +7,23 @@ int main()
         switch(i)
       {
         case 0:
-            cout << "Apple" << endl;
+            cout << "1 Apple" << endl;
             break;
 
         case 1:
-            cout << "Orange" << endl;
+            cout << "2 Oranges" << endl;
             break;
 
         case 2:
-            cout << "Grape" << endl;
+            cout << "3 Grapes" << endl;
             break;
 
         case 3:
-            cout << "Pear" << endl;
+            cout << "4 Pears" << endl;
             break;
 
         case 4:
-            cout << "Banana" << endl;
+            cout << "5 Bananas" << endl;
             break;
       }
     }
