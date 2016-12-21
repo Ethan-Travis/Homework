@@ -1,11 +1,33 @@
 #include <iostream> // Makes these available cout,cin,endl.
 using namespace std;
+
+
+int functionThatReturnsAnInteger()
+{
+    int Vanessa; // Declares Vanessa to be an integer.
+    cin >> Vanessa; // Waits for user to enter a value. Stores the value in Vanessa.
+    if (Vanessa < 1) // Checks if the value stored in Vanessa is less than one.
+    {
+        cout << "Uses Proper Grammar." << endl;
+        Vanessa = 12; // Sets Vanessa to have the value of 12.
+    }
+    else
+    {
+        cout << "Plays basketball." << endl;
+    }
+    return Vanessa;
+}
+
+
 int main()
 {
     int Name; // Declares Name to be an integer.
     cout << "enter a value" << endl; // Puts enter the value on the console.
     cin >> Name; // Waits for user to enter a value. Stores the value in Name.
     cout << Name << endl; // Printing the value that is in Name.
+
+    cout << functionThatReturnsAnInteger() << endl;
+
 
     // Checks if the expression is true before proceeding to Line 12.
     // Checks if the value stored in Name is less than one.
