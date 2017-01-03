@@ -36,7 +36,7 @@ int main()
 
     int Tristana = Ktyal;
 
-    while (Tristana == Ktyal)
+    while (Tristana == Ktyal) // Make expression equal false to avoid making an infinite loop.
     {
        cin >> Tristana;
     }
