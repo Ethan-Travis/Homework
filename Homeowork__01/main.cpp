@@ -3,46 +3,44 @@ using namespace std;
 
 int functionThatReturnsAnInteger()
 {
-    int Ethan;
-    cin >> Ethan;
-    if (Ethan < 1)
+    int playerNumber;
+    cin >> playerNumber;
+    if (playerNumber < 1)
     {
-        cout << "Plays Master Yi." << endl;
+        cout << " Player Number " << playerNumber << " is Master Yi. " << endl;
     }
     else
     {
-        cout << "Plays Xin Zhao." << endl;
+        cout << " Player Number " << playerNumber <<" is Xin Zhao. " << endl;
     }
-    return Ethan;
+    return playerNumber;
 }
 
 int main()
 {
     int Ktyal;
-    cout << "enter a value" << endl;
+    cout << "enter Ktyal Player Number" << endl;
     cin >> Ktyal;
     cout << Ktyal << endl;
 
-    cout << functionThatReturnsAnInteger() << endl;
-
     if(Ktyal < 3)
     {
-        cout << "Plays Wukong." << endl;
+        cout << "Ktyal Plays Wukong. " << endl;
     }
     else
     {
-        cout << "Plays Yasuo." << endl;
+        cout << "Ktyal Plays Yasuo. " << endl;
     }
 
-    int GamerRose = Ktyal;
+    int otherPlayer = functionThatReturnsAnInteger();
 
-    while (GamerRose = Ktyal)
-     {
-       cin >> GamerRose;
-       cout << "Plays Tristana." << endl;
-     }
+    int Tristana = Ktyal;
 
-    cout << functionThatReturnsAnInteger() << endl;
+    while (Tristana == Ktyal)
+    {
+       cin >> Tristana;
+    }
+    cout << "Ktyal (#" << Ktyal << ") Plays Tristana (#" << Tristana << ")." << endl;
 
     return 0;
 }
