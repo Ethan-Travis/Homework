@@ -25,7 +25,7 @@ int main()
 
     cout << functionThatReturnsAnInteger() << endl;
 
-    if(Ktyal < 2)
+    if(Ktyal < 3)
     {
         cout << "Plays Wukong." << endl;
     }
@@ -36,11 +36,13 @@ int main()
 
     int GamerRose = Ktyal;
 
-    while (GamerRose < 5)
+    while (GamerRose = Ktyal)
      {
+       cin >> GamerRose;
        cout << "Plays Tristana." << endl;
-       GamerRose = 5;
      }
+
+    cout << functionThatReturnsAnInteger() << endl;
 
     return 0;
 }
