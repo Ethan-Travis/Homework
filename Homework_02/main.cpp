@@ -118,14 +118,14 @@ double calulator ()
     }
     else if(op == 'Z')
     {
-     /*
+        /*
     If A is equal to B and less than 6.
             If A is equal to B and more than 3 A wins.
     Else B wins.
       */
         if ((a == b) && (a < 6))
         {
-                if ((a == b) && (a > 3))
+            if ((a == b) && (a > 3))
             {
                 cout << "A wins." << endl;
             }
@@ -136,7 +136,7 @@ double calulator ()
         }
         else
         {
-          cout << "B wins." << endl;
+            cout << "B wins." << endl;
         }
     }
     else if(op == 'X')
@@ -169,21 +169,21 @@ double calulator ()
             If A is less than 5 but less than or equal to B, B wins.
     Else A wins.
      */
-    if ((a < 5) && (a == b))
-    {
-        if ((a < 5) && (a <= b))
+        if ((a < 5) && (a == b))
         {
-          cout << "B wins." << endl;
+            if ((a < 5) && (a <= b))
+            {
+                cout << "B wins." << endl;
+            }
+            else
+            {
+                cout << "A wins." << endl;
+            }
         }
         else
         {
-          cout << "A wins." << endl;
+            cout << "A wins." << endl;
         }
-    }
-    else
-    {
-       cout << "A wins." << endl;
-    }
     }
     else
     {
