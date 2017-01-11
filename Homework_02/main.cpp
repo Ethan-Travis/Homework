@@ -100,7 +100,21 @@ double calulator ()
     Else A wins.
       */
 
-        cout << "Work in Progress." << endl;
+        if ((b <= a) && a < 8)
+        {
+            if ((b <=8)&& (b <= a))
+            {
+                cout << "B wins." << endl;
+            }
+            else
+            {
+                cout << "A wins." << endl;
+            }
+        }
+        else
+        {
+            cout << "A wins." << endl;
+        }
     }
     else if(op == 'Z')
     {
@@ -109,8 +123,21 @@ double calulator ()
             If A is equal to B and more than 3 A wins.
     Else B wins.
       */
-
-        cout << "Work in Progress." << endl;
+        if ((a == b) && (a < 6))
+        {
+                if ((a == b) && (a > 3))
+            {
+                cout << "A wins." << endl;
+            }
+            else
+            {
+                cout << "B wins." << endl;
+            }
+        }
+        else
+        {
+          cout << "B wins." << endl;
+        }
     }
     else if(op == 'X')
     {
@@ -119,8 +146,21 @@ double calulator ()
             If B is less than 9, and greater than A, B wins.
     Else A wins.
       */
-
-        cout << "Work in Progress." << endl;
+        if ((b > 4) && (b < 9) && (b > a))
+        {
+            if ((b < 9)&& (b > a))
+            {
+                cout << "B wins." << endl;
+            }
+            else
+            {
+                cout << "A wins." << endl;
+            }
+        }
+        else
+        {
+            cout << "A wins." << endl;
+        }
     }
     else if(op == 'C')
     {
@@ -129,11 +169,24 @@ double calulator ()
             If A is less than 5 but less than B, B wins.
     Else A wins.
      */
-        cout << "Work in Progress." << endl;
+    if ((a < 5) && (a == b))
+    {
+         if ((a < 5) && ((a < b))
+         {
+           cout << "B wins." << endl;
+         }
+         else
+         {
+           cout << "A wins." << endl;
+         }
     }
     else
     {
-        cout << "Work in Progress." << endl;
+       cout << "A wins." << endl;
+    }
+    else
+    {
+        cout << "Invaild Action." << endl;
         return 0;
     }
 
