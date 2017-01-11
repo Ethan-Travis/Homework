@@ -24,9 +24,11 @@ double calulator ()
 
     if(op == 'Q')
     {
-        /* If A is greater than B then
+        /*
+         If A is greater than B then
                 If A is less than 5 B wins.
-           Else A wins. */
+         Else A wins.
+        */
 
         if(a > b)
         {
@@ -50,7 +52,7 @@ double calulator ()
             If B is less than A.
                 If B is less than 4 B wins.
             Else A wins.
-         */
+        */
 
         if(b < a)
         {
