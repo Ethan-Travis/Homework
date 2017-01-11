@@ -166,23 +166,24 @@ double calulator ()
     {
     /*
     If A is less than 5 and equal to B.
-            If A is less than 5 but less than B, B wins.
+            If A is less than 5 but less than or equal to B, B wins.
     Else A wins.
      */
     if ((a < 5) && (a == b))
     {
-         if ((a < 5) && ((a < b))
-         {
-           cout << "B wins." << endl;
-         }
-         else
-         {
-           cout << "A wins." << endl;
-         }
+        if ((a < 5) && (a <= b))
+        {
+          cout << "B wins." << endl;
+        }
+        else
+        {
+          cout << "A wins." << endl;
+        }
     }
     else
     {
        cout << "A wins." << endl;
+    }
     }
     else
     {
