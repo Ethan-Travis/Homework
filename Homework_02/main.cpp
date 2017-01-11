@@ -96,13 +96,13 @@ double calulator ()
     {
      /*
     If B is greater than or equal to A and less than 8.
-            If B is less than 8, and less than or equal A, B wins.
+            If B is less than 8, and less than A, B wins.
     Else A wins.
       */
 
-        if ((b <= a) && a < 8)
+        if ((b >= a) && (b < 8))
         {
-            if ((b <=8)&& (b <= a))
+            if ((b < 8) && (b < a))
             {
                 cout << "B wins." << endl;
             }
@@ -205,9 +205,9 @@ int main()
         calulator();
         cout << "Thanks for playing! Press R to exit." << endl;
         cin >> doQuit;
-    } while(doQuit != 'R')
+    } while(doQuit != 'R');
 
-    ;cout << "Goodbye!" << endl;
+    cout << "Goodbye!" << endl;
 
     return 0;
 }
