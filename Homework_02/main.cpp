@@ -70,7 +70,7 @@ double calulator ()
     }
     else if(op == 'E')
     {
-    /*
+        /*
     If A is less than B and greater than 5.
             If A is greater than 6 and less than 10 A wins.
     Else B wins.
@@ -94,7 +94,7 @@ double calulator ()
     }
     else if(op == 'S')
     {
-     /*
+        /*
     If B is greater than or equal to A and less than 8.
             If B is less than 8, and less than A, B wins.
     Else A wins.
@@ -141,7 +141,7 @@ double calulator ()
     }
     else if(op == 'X')
     {
-     /*
+        /*
     If B is greater than 4, but less than 9, and greater than A.
             If B is less than 9, and greater than A, B wins.
     Else A wins.
@@ -164,7 +164,7 @@ double calulator ()
     }
     else if(op == 'C')
     {
-    /*
+        /*
     If A is less than 5 and equal to B.
             If A is less than 5 but less than or equal to B, B wins.
     Else A wins.
